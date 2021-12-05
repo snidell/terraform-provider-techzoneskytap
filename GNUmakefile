@@ -2,7 +2,7 @@ TEST?=$$(go list ./... |grep -v 'vendor')
 GOFMT_FILES?=$$(find . -name '*.go' |grep -v vendor)
 GOIMPORT_FILES?=$$(find . -type f -name '*.go' -not -path './vendor/*')
 WEBSITE_REPO=github.com/hashicorp/terraform-website
-PKG_NAME=skytap
+PKG_NAME=techzoneskytap
 
 default: build
 

@@ -1,4 +1,4 @@
-module github.com/terraform-providers/terraform-provider-skytap
+module github.com/snidell/terraform-provider-techzoneskytap/skytap
 
 require (
 	github.com/bflad/tfproviderlint v0.26.0

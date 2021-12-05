@@ -6,7 +6,7 @@ OVERRIDES_FILENAME=developer_overrides.tfrc
 cat << EOF > $BIN_DIR/$OVERRIDES_FILENAME
 provider_installation {
   dev_overrides {
-    "skytap/skytap" = "$BIN_DIR"
+    "snidell/techzoneskytap" = "$BIN_DIR"
   }
   direct {}
 }

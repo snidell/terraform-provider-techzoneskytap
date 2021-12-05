@@ -17,7 +17,7 @@ import (
 	"github.com/skytap/skytap-sdk-go/skytap"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/terraform-providers/terraform-provider-skytap/skytap/utils"
+	"github.com/snidell/terraform-provider-techzoneskytap/skytap/skytap/utils"
 )
 
 const (

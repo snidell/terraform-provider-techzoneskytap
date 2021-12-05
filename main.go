@@ -4,7 +4,8 @@ import (
 	"context"
 	"flag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
-	"github.com/terraform-providers/terraform-provider-skytap/skytap"
+	"github.com/snidell/terraform-provider-techzoneskytap/skytap/skytap"
+
 	"log"
 )
 

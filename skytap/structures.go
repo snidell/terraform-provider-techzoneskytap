@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/skytap/skytap-sdk-go/skytap"
 
-	"github.com/terraform-providers/terraform-provider-skytap/skytap/hashcode"
+	"github.com/snidell/terraform-provider-techzoneskytap/skytap/skytap/hashcode"
 )
 
 func flattenNetworkInterfaces(interfaces []skytap.Interface) []interface{} {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 
-	"github.com/terraform-providers/terraform-provider-skytap/skytap/utils"
+	"github.com/snidell/terraform-provider-techzoneskytap/skytap/skytap/utils"
 )
 
 func TestAccDataSourceSkytapTemplate_Basic(t *testing.T) {

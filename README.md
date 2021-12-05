@@ -32,7 +32,7 @@ provider "skytap" {
 Building The Provider
 ---------------------
 
-Clone repository to: `$GOPATH/src/github.com/terraform-providers/terraform-provider-skytap`
+Clone repository to: `$GOPATH/src/github.com/snidell/terraform-provider-techzoneskytap/skytap`
 
 ```sh
 $ mkdir -p $GOPATH/src/github.com/terraform-providers; cd $GOPATH/src/github.com/terraform-providers
@@ -42,7 +42,7 @@ $ git clone git@github.com:terraform-providers/terraform-provider-skytap
 Enter the provider directory and build the provider
 
 ```sh
-$ cd $GOPATH/src/github.com/terraform-providers/terraform-provider-skytap
+$ cd $GOPATH/src/github.com/snidell/terraform-provider-techzoneskytap/skytap
 $ make build
 ```
 

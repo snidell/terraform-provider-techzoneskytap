@@ -32,17 +32,17 @@ func Provider() *schema.Provider {
 		},
 
 		DataSourcesMap: map[string]*schema.Resource{
-			"skytap_project":  dataSourceSkytapProject(),
-			"skytap_template": dataSourceSkytapTemplate(),
+			"techzoneskytap_project":  dataSourceSkytapProject(),
+			"techzoneskytap_template": dataSourceSkytapTemplate(),
 		},
 
 		ResourcesMap: map[string]*schema.Resource{
-			"skytap_project":        resourceSkytapProject(),
-			"skytap_environment":    resourceSkytapEnvironment(),
-			"skytap_network":        resourceSkytapNetwork(),
-			"skytap_vm":             resourceSkytapVM(),
-			"skytap_label_category": resourceSkytapLabelCategory(),
-			"skytap_icnr_tunnel":    resourceSkytapICNRTunnel(),
+			"techzoneskytap_project":        resourceSkytapProject(),
+			"techzoneskytap_environment":    resourceSkytapEnvironment(),
+			"techzoneskytap_network":        resourceSkytapNetwork(),
+			"techzoneskytap_vm":             resourceSkytapVM(),
+			"techzoneskytap_label_category": resourceSkytapLabelCategory(),
+			"techzoneskytap_icnr_tunnel":    resourceSkytapICNRTunnel(),
 		},
 	}
 

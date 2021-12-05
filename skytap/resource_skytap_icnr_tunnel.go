@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 
-	"github.com/terraform-providers/terraform-provider-skytap/skytap/utils"
+	"github.com/snidell/terraform-provider-techzoneskytap/skytap/skytap/utils"
 )
 
 func resourceSkytapICNRTunnel() *schema.Resource {
